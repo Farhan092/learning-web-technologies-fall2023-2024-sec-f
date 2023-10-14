@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title>Registration HTML Form</title>
+</head>
+<body>
+    <fieldset>
+        <legend><b>REGISTRATION</b></legend>
+        <form action="registration.php" method="post">
+            Name : <input type="text" name="name" value="" required> <br> <hr>
+            Email : <input type="email" name="email" value="" required> <br> <hr>
+            Username : <input type="text" name="username" value="" required> <input type="button" name="" value ="i"> <br> <hr>
+            Password : <input type="password" name="password" value="" required> <br> <hr>
+            Confirm Password : <input type="password" name="confirmPassword" value="" required> <br> <hr>
+
+            <fieldset>
+                <legend>Gender</legend>
+                <input type="radio" name="gender" value="" /> Male
+                <input type="radio" name="gender" value="" /> Female
+                <input type="radio" name="gender" value="" /> Other
+            </fieldset>
+
+            <fieldset>
+              <legend>Date of Birth</legend>
+                <br/>
+              <input type="text" name="date" value="" size= 1 /> / <input type="text" name="month" value="" size= 1 /> / <input type="text" name="year" value="" size= 1 /> (dd  /   mm  / yyyy) <br/> <hr> 
+            </fieldset>
+            
+            <br>
+            <input type="submit" id="" name="" value="Submit">
+            <button type="reset">Reset</button>
+        </form>
+    </fieldset>
+</body>
+</html>
