@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Search Feature</title>
+</head>
+<body>
+    <h1 id="searchResults"></h1>
+    <input type="text" id="searchInput" placeholder="Enter your search">
+    <button onclick="search()">Search</button>
+
+    <script src="search.js"></script>
+</body>
+</html>
