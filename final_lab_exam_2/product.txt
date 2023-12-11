@@ -1,0 +1,13 @@
+CREATE TABLE `user` (
+  `name` varchar(200) NOT NULL,
+  `username` varchar(200) NOT NULL,
+  `email` varchar(200) NOT NULL,
+  `password` varchar(200) NOT NULL,
+  `userType` varchar(200) NOT NULL
+)
+
+CREATE TABLE `products` (
+  `productname` varchar(200) NOT NULL,
+  `productprice` varchar(200) NOT NULL,
+  `productbrand` varchar(200) NOT NULL
+)
